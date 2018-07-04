@@ -1,4 +1,9 @@
 <?php
+?>
+
+
+
+<?php
 
 
 ?>
@@ -37,7 +42,7 @@
         </tr>
         <tr>
             <th></th>
-            <td><input type="submit" name="btn" value="SUBMIT" /></td>
+            <td><input type="submit" name="btn" value="UPDATE" /></td>
         </tr>
     </table>
 </form>
