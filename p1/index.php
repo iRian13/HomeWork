@@ -1,5 +1,12 @@
 <?php
+    require_once './vendor/autoload.php';
+    use App\classes\StudentInfo;
+    $addStudentInfo = '';
+    if(isset($_POST['btn'])) {
+        $student = new StudentInfo();
+        $addStudentInfo = $student->addStudentInfo();
 
+    }
 
 ?>
 <div align="center">
@@ -8,7 +15,7 @@
 <a href="view-student.php">VIEW STUDENT</a>
 <hr />
 </div>
-
+<h2><?php echo $addStudentInfo;?></h2>
 <form action="" method="post">
     <table align="center">
         <tr>
